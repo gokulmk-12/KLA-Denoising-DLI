@@ -60,13 +60,13 @@ if __name__ == "__main__":
 
     ## Change Dataset Location Here 
     
-    train_data_dest = 'Dataset/data/Train'
-    train_labels_dest = 'Dataset/label/Train'
-    train_masks_dest = 'Dataset/mask/Train'
+    train_data_dest = 'dataset/data/Train'
+    train_labels_dest = 'dataset/label/Train'
+    train_masks_dest = 'dataset/mask/Train'
 
-    val_data_dest = 'Dataset/data/Val'
-    val_labels_dest = 'Dataset/label/Val'
-    val_masks_dest = 'Dataset/mask/Val'
+    val_data_dest = 'dataset/data/Val'
+    val_labels_dest = 'dataset/label/Val'
+    val_masks_dest = 'dataset/mask/Val'
 
     process_dataset(base_dataset_dir, train_data_dest, train_labels_dest, train_masks_dest, 'Train')
     process_dataset(base_dataset_dir, val_data_dest, val_labels_dest, val_masks_dest, 'Val')

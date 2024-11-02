@@ -91,7 +91,7 @@ class RIDNet(nn.Module):
     
 if __name__ == "__main__":
     
-    model_path = "../Project/saved_models/ridnet3_epoch_16patch29oct.pth"
+    model_path = "saved_models/ridnet_model.pth"
     checkpoint = torch.load(model_path)
     model = RIDNet()
     summary(model, (3, 256, 256), device="cpu")
