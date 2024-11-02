@@ -9,7 +9,7 @@ This Repository contains the files for Image Restoration from Noisy and Blur Ima
 
 ## Model & Dataset Link :
 - **Dataset**: https://drive.google.com/file/d/1iTM57U43L0ANn1u_bRv4dEEERQemuOXc/view?usp=drive_link
-- **RIDNet**: https://drive.google.com/file/d/13yEwYvHD1QynOthkDTYoGJGo2RiI_dG7/view?usp=sharing
+- **RIDNet**: https://drive.google.com/file/d/1cuyH0LxOmmW3_yZsL0GcsdodcwVhfcMy/view?usp=sharing
 - **UNet**: https://drive.google.com/file/d/1pnXopSsV8yAq6GXf0AEsDQII2UdlVU2k/view?usp=sharing
 
 ## Steps to Organize the Dataset :
