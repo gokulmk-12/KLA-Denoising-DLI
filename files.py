@@ -56,8 +56,10 @@ def process_dataset(base_dir, dest_data_dir, dest_labels_dir, dest_masks_dir, sp
 
 
 if __name__ == "__main__":
-    base_dataset_dir = 'Denoising_Dataset_train_val/zipper'
+    base_dataset_dir = 'Denoising_Dataset_train_val/zipper' ## Change Class Here
 
+    ## Change Dataset Location Here 
+    
     train_data_dest = 'Dataset/data/Train'
     train_labels_dest = 'Dataset/label/Train'
     train_masks_dest = 'Dataset/mask/Train'
