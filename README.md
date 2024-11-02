@@ -21,11 +21,19 @@ This Repository contains the files for Image Restoration from Noisy and Blur Ima
 - Do change the class name in **Line 59** of **files.py** each time to append the images to dataset folder
 
 ## Steps to Run the Model :
+- Download the required python librariies using requirements.txt
+  ```
+  pip install -r requirements.txt
+  ```
 - Clone the Repository
   ```
   git clone https://github.com/gokulmk-12/KLA-Denoising-DLI.git
   ```
 - Download the model weights from the above link and paste in a new folder "saved_models" inside the clones folder
+- Below is the expected contents of the cloned folder
+  
+  ![Screenshot from 2024-11-02 23-28-13](https://github.com/user-attachments/assets/171a6017-2396-47db-af62-6eedddbcd62a)
+  
 - Run main.py by using the following command. It opens a GUI in streamlit
   ```
   streamlit run main.py
